@@ -1,3 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Fang</title><link>https://fanghou2025.github.io/</link><description>Recent content on Fang</description><generator>Hugo -- 0.149.0</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://fanghou2025.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://fanghou2025.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fanghou2025.github.io/about/</guid><description>&lt;p&gt;Hi, I’m **Fangyuan Hou** 👋.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fang</title>
+    <link>https://fanghou2025.github.io/</link>
+    <description>Recent content on Fang</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fanghou2025.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://fanghou2025.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fanghou2025.github.io/about/</guid>
+      <description>&lt;p&gt;Hi, I’m **Fangyuan Hou** 👋.&lt;/p&gt;
 &lt;p&gt;I work with **Dynamics 365 Finance and Operations** and love solving tricky issues around troubleshooting, upgrades, and development.&lt;/p&gt;
-&lt;p&gt;This site is my space to share what I learn — I hope it helps others in their D365 journey.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This site is my space to share what I learn — I hope it helps others in their D365 journey.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
