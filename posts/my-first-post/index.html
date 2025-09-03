@@ -5,9 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Troubleshooting Batch Jobs in Dynamics 365 FnO | Fang</title>
+<title>Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting | Fang</title>
 <meta name="keywords" content="">
-<meta name="description" content="Here’s how I debugged a failed batch job in Dynamics 365 FnO&hellip;">
+<meta name="description" content="Asking Questions Is Critical for Troubleshooting
+I still recall a troubleshooting case from roughly five years ago—one that stuck with me because it taught me just how targeted questions can be. Back then, I spent weeks tied up in a frustrating problem for a customer, and the resolution ended up being simpler than I&rsquo;d ever guessed.
+The issue centered on their Microsoft Dynamics AX2012 system: when they finalized a purchase order for the first time, everything ran smoothly. But if they tried to finalize a second order right after, the system would freeze for about three minutes. Worse yet, that freeze wasn&rsquo;t just isolated to the purchase order function—no one at the company could use AX at all during that time. They couldn&rsquo;t even open a new AX client; the entire system ground to a halt.">
 <meta name="author" content="">
 <link rel="canonical" href="https://fanghou2025.github.io/posts/my-first-post/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
@@ -57,16 +59,20 @@
     </style>
 </noscript><meta property="og:url" content="https://fanghou2025.github.io/posts/my-first-post/">
   <meta property="og:site_name" content="Fang">
-  <meta property="og:title" content="Troubleshooting Batch Jobs in Dynamics 365 FnO">
-  <meta property="og:description" content="Here’s how I debugged a failed batch job in Dynamics 365 FnO…">
+  <meta property="og:title" content="Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting">
+  <meta property="og:description" content="Asking Questions Is Critical for Troubleshooting
+I still recall a troubleshooting case from roughly five years ago—one that stuck with me because it taught me just how targeted questions can be. Back then, I spent weeks tied up in a frustrating problem for a customer, and the resolution ended up being simpler than I’d ever guessed.
+The issue centered on their Microsoft Dynamics AX2012 system: when they finalized a purchase order for the first time, everything ran smoothly. But if they tried to finalize a second order right after, the system would freeze for about three minutes. Worse yet, that freeze wasn’t just isolated to the purchase order function—no one at the company could use AX at all during that time. They couldn’t even open a new AX client; the entire system ground to a halt.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-09-03T00:00:00+00:00">
     <meta property="article:modified_time" content="2025-09-03T00:00:00+00:00">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Troubleshooting Batch Jobs in Dynamics 365 FnO">
-<meta name="twitter:description" content="Here’s how I debugged a failed batch job in Dynamics 365 FnO&hellip;">
+<meta name="twitter:title" content="Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting">
+<meta name="twitter:description" content="Asking Questions Is Critical for Troubleshooting
+I still recall a troubleshooting case from roughly five years ago—one that stuck with me because it taught me just how targeted questions can be. Back then, I spent weeks tied up in a frustrating problem for a customer, and the resolution ended up being simpler than I&rsquo;d ever guessed.
+The issue centered on their Microsoft Dynamics AX2012 system: when they finalized a purchase order for the first time, everything ran smoothly. But if they tried to finalize a second order right after, the system would freeze for about three minutes. Worse yet, that freeze wasn&rsquo;t just isolated to the purchase order function—no one at the company could use AX at all during that time. They couldn&rsquo;t even open a new AX client; the entire system ground to a halt.">
 
 
 <script type="application/ld+json">
@@ -83,7 +89,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Troubleshooting Batch Jobs in Dynamics 365 FnO",
+      "name": "Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting",
       "item": "https://fanghou2025.github.io/posts/my-first-post/"
     }
   ]
@@ -93,14 +99,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Troubleshooting Batch Jobs in Dynamics 365 FnO",
-  "name": "Troubleshooting Batch Jobs in Dynamics 365 FnO",
-  "description": "Here’s how I debugged a failed batch job in Dynamics 365 FnO\u0026hellip;\n",
+  "headline": "Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting",
+  "name": "Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting",
+  "description": "Asking Questions Is Critical for Troubleshooting\nI still recall a troubleshooting case from roughly five years ago—one that stuck with me because it taught me just how targeted questions can be. Back then, I spent weeks tied up in a frustrating problem for a customer, and the resolution ended up being simpler than I\u0026rsquo;d ever guessed.\nThe issue centered on their Microsoft Dynamics AX2012 system: when they finalized a purchase order for the first time, everything ran smoothly. But if they tried to finalize a second order right after, the system would freeze for about three minutes. Worse yet, that freeze wasn\u0026rsquo;t just isolated to the purchase order function—no one at the company could use AX at all during that time. They couldn\u0026rsquo;t even open a new AX client; the entire system ground to a halt.\n",
   "keywords": [
     
   ],
-  "articleBody": "Here’s how I debugged a failed batch job in Dynamics 365 FnO…\n",
-  "wordCount" : "12",
+  "articleBody": "Asking Questions Is Critical for Troubleshooting\nI still recall a troubleshooting case from roughly five years ago—one that stuck with me because it taught me just how targeted questions can be. Back then, I spent weeks tied up in a frustrating problem for a customer, and the resolution ended up being simpler than I’d ever guessed.\nThe issue centered on their Microsoft Dynamics AX2012 system: when they finalized a purchase order for the first time, everything ran smoothly. But if they tried to finalize a second order right after, the system would freeze for about three minutes. Worse yet, that freeze wasn’t just isolated to the purchase order function—no one at the company could use AX at all during that time. They couldn’t even open a new AX client; the entire system ground to a halt.\nWe threw every technical tool we had at it first. We collected all kinds of traces and logs: AX Traces, SQL Profiler, system logs, performance metrics and WCF traces. Analyized the AX trace, but found no slow-running queries. We ran SQL Server Profiler and SSMS to check for database blockings—nothing there. When we analyzed the WCF traces, we noticed a strange gap in the data, but even that clue didn’t lead us to the root cause. Two months passed, and we were still stuck. We scheduled many meetings with the customer to walk through steps, and brought in experts from different product teams at Microsoft to collaborate on the investigation. Nothing clicked.\nAround that time, our company was pushing the Kepner-Tregoe (KT) method—a structured approach to problem-solving—for tough issues. I sat down with my manager to talk through it, and we decided to give it a try. Instead of diving back into logs/traces, we used the KT framework to map out all possible scenarios that could cause the system to hang. We walked through exactly what happened before the freeze and after, and most importantly, we started asking follow-up questions we’d skipped earlier: “Had anything changed in the system before this started?\" and finally discovered that the customer had enabled a Windows trace before the issue started and had forgotten to stop it. Once they stopped it, the problem was resolved immediately. No more freezes, no more downtime—just like that.\nThat case was a powerful reminder. Sometimes, the root cause of a “technical” problem lives outside the main application you’re troubleshooting, and a structured, persistent approach is key to solving complex problems. For troubleshooting, questions aren’t just a way to gather info—they’re the key to unlocking the solution.\n",
+  "wordCount" : "424",
   "inLanguage": "en",
   "datePublished": "2025-09-03T00:00:00Z",
   "dateModified": "2025-09-03T00:00:00Z",
@@ -166,8 +172,8 @@
                 </a>
             </li>
             <li>
-                <a href="https://fanghou2025.github.io/about/" title="About">
-                    <span>About</span>
+                <a href="https://fanghou2025.github.io/about/" title="About Me">
+                    <span>About Me</span>
                 </a>
             </li>
             <li>
@@ -184,13 +190,18 @@
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://fanghou2025.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://fanghou2025.github.io/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      Troubleshooting Batch Jobs in Dynamics 365 FnO
+      Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting
     </h1>
-    <div class="post-meta"><span title='2025-09-03 00:00:00 +0000 UTC'>September 3, 2025</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta"><span title='2025-09-03 00:00:00 +0000 UTC'>September 3, 2025</span>&nbsp;·&nbsp;2 min
 
 </div>
   </header> 
-  <div class="post-content"><p>Here’s how I debugged a failed batch job in Dynamics 365 FnO&hellip;</p>
+  <div class="post-content"><p>Asking Questions Is Critical for Troubleshooting</p>
+<p>I still recall a troubleshooting case from roughly five years ago—one that stuck with me because it taught me just how targeted questions can be. Back then, I spent weeks tied up in a frustrating problem for a customer, and the resolution ended up being simpler than I&rsquo;d ever guessed.</p>
+<p>The issue centered on their Microsoft Dynamics AX2012 system: when they finalized a purchase order for the first time, everything ran smoothly. But if they tried to finalize a second order right after, the system would freeze for about three minutes. Worse yet, that freeze wasn&rsquo;t just isolated to the purchase order function—no one at the company could use AX at all during that time. They couldn&rsquo;t even open a new AX client; the entire system ground to a halt.</p>
+<p>We threw every technical tool we had at it first. We collected all kinds of traces and logs: AX Traces, SQL Profiler, system logs, performance metrics and WCF traces. Analyized the AX trace, but found no slow-running queries. We ran SQL Server Profiler and SSMS to check for database blockings—nothing there. When we analyzed the WCF traces, we noticed a strange gap in the data, but even that clue didn&rsquo;t lead us to the root cause. Two months passed, and we were still stuck. We scheduled many meetings with the customer to walk through steps, and brought in experts from different product teams at Microsoft to collaborate on the investigation. Nothing clicked.</p>
+<p>Around that time, our company was pushing the Kepner-Tregoe (KT) method—a structured approach to problem-solving—for tough issues. I sat down with my manager to talk through it, and we decided to give it a try. Instead of diving back into logs/traces, we used the KT framework to map out all possible scenarios that could cause the system to hang. We walked through exactly what happened before the freeze and after, and most importantly, we started asking follow-up questions we’d skipped earlier: “Had anything changed in the system before this started?&quot; and finally discovered that the customer had enabled a Windows trace before the issue started and had forgotten to stop it. Once they stopped it, the problem was resolved immediately. No more freezes, no more downtime—just like that.</p>
+<p>That case was a powerful reminder. Sometimes, the root cause of a &ldquo;technical&rdquo; problem lives outside the main application you&rsquo;re troubleshooting, and a structured, persistent approach is key to solving complex problems. For troubleshooting, questions aren&rsquo;t just a way to gather info—they&rsquo;re the key to unlocking the solution.</p>
 
 
   </div>

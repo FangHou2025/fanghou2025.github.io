@@ -9,11 +9,13 @@
     <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://fanghou2025.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Troubleshooting Batch Jobs in Dynamics 365 FnO</title>
+      <title>Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting</title>
       <link>https://fanghou2025.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://fanghou2025.github.io/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Here’s how I debugged a failed batch job in Dynamics 365 FnO&amp;hellip;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Asking Questions Is Critical for Troubleshooting&lt;/p&gt;
+&lt;p&gt;I still recall a troubleshooting case from roughly five years ago—one that stuck with me because it taught me just how targeted questions can be. Back then, I spent weeks tied up in a frustrating problem for a customer, and the resolution ended up being simpler than I&amp;rsquo;d ever guessed.&lt;/p&gt;
+&lt;p&gt;The issue centered on their Microsoft Dynamics AX2012 system: when they finalized a purchase order for the first time, everything ran smoothly. But if they tried to finalize a second order right after, the system would freeze for about three minutes. Worse yet, that freeze wasn&amp;rsquo;t just isolated to the purchase order function—no one at the company could use AX at all during that time. They couldn&amp;rsquo;t even open a new AX client; the entire system ground to a halt.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
