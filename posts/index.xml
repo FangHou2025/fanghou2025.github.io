@@ -6,7 +6,14 @@
     <description>Recent content in Posts on Fang</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://fanghou2025.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting Batch Jobs in Dynamics 365 FnO</title>
+      <link>https://fanghou2025.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://fanghou2025.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Here’s how I debugged a failed batch job in Dynamics 365 FnO&amp;hellip;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

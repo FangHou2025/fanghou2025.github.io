@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.149.0"><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Fang</title>
-
-<meta name="description" content="">
+<title>Troubleshooting Batch Jobs in Dynamics 365 FnO | Fang</title>
+<meta name="keywords" content="">
+<meta name="description" content="Here’s how I debugged a failed batch job in Dynamics 365 FnO&hellip;">
 <meta name="author" content="">
-<link rel="canonical" href="https://fanghou2025.github.io/">
+<link rel="canonical" href="https://fanghou2025.github.io/posts/my-first-post/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://fanghou2025.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://fanghou2025.github.io/favicon-16x16.png">
@@ -19,8 +18,7 @@
 <link rel="mask-icon" href="https://fanghou2025.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://fanghou2025.github.io/index.xml">
-<link rel="alternate" hreflang="en" href="https://fanghou2025.github.io/">
+<link rel="alternate" hreflang="en" href="https://fanghou2025.github.io/posts/my-first-post/">
 <noscript>
     <style>
         #theme-toggle,
@@ -57,31 +55,72 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://fanghou2025.github.io/">
+</noscript><meta property="og:url" content="https://fanghou2025.github.io/posts/my-first-post/">
   <meta property="og:site_name" content="Fang">
-  <meta property="og:title" content="Fang">
+  <meta property="og:title" content="Troubleshooting Batch Jobs in Dynamics 365 FnO">
+  <meta property="og:description" content="Here’s how I debugged a failed batch job in Dynamics 365 FnO…">
   <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-03T00:00:00+00:00">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Fang">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Troubleshooting Batch Jobs in Dynamics 365 FnO">
+<meta name="twitter:description" content="Here’s how I debugged a failed batch job in Dynamics 365 FnO&hellip;">
+
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Fang",
-  "url": "https://fanghou2025.github.io/",
-  "description": "",
-  "logo": "https://fanghou2025.github.io/favicon.ico",
-  "sameAs": [
-      
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://fanghou2025.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Troubleshooting Batch Jobs in Dynamics 365 FnO",
+      "item": "https://fanghou2025.github.io/posts/my-first-post/"
+    }
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Troubleshooting Batch Jobs in Dynamics 365 FnO",
+  "name": "Troubleshooting Batch Jobs in Dynamics 365 FnO",
+  "description": "Here’s how I debugged a failed batch job in Dynamics 365 FnO\u0026hellip;\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Here’s how I debugged a failed batch job in Dynamics 365 FnO…\n",
+  "wordCount" : "12",
+  "inLanguage": "en",
+  "datePublished": "2025-09-03T00:00:00Z",
+  "dateModified": "2025-09-03T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fanghou2025.github.io/posts/my-first-post/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Fang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fanghou2025.github.io/favicon.ico"
+    }
+  }
 }
 </script>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -139,32 +178,28 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Hi, I’m Fangyuan Hou 👋</h1>
-    </header>
-    <div class="entry-content">
-        Sharing my journey with <strong>Dynamics 365 FnO</strong> — troubleshooting, upgrades, and development.
-    </div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://fanghou2025.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://fanghou2025.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Troubleshooting Batch Jobs in Dynamics 365 FnO
+    </h1>
+    <div class="post-meta"><span title='2025-09-03 00:00:00 +0000 UTC'>September 3, 2025</span>&nbsp;·&nbsp;1 min
+
 </div>
+  </header> 
+  <div class="post-content"><p>Here’s how I debugged a failed batch job in Dynamics 365 FnO&hellip;</p>
 
-    </footer>
-</article>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Troubleshooting Batch Jobs in Dynamics 365 FnO
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Here’s how I debugged a failed batch job in Dynamics 365 FnO…
-</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-03 00:00:00 +0000 UTC'>September 3, 2025</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Troubleshooting Batch Jobs in Dynamics 365 FnO" href="https://fanghou2025.github.io/posts/my-first-post/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+  </footer>
 </article>
     </main>
     
