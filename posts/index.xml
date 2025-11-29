@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Fang</title>
-    <link>https://fanghou2025.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Fang</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fanghou2025.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Key Takeaway from a Complex Issue: Asking Questions Is Critical for Troubleshooting</title>
-      <link>https://fanghou2025.github.io/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/asking-questions-is-critica-for-troubleshooting/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://fanghou2025.github.io/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/asking-questions-is-critica-for-troubleshooting/</guid>
       <description>&lt;p&gt;Asking Questions Is Critical for Troubleshooting&lt;/p&gt;
 &lt;p&gt;I still recall a troubleshooting case from roughly five years ago—one that stuck with me because it taught me just how targeted questions can be. Back then, I spent weeks tied up in a frustrating problem for a customer, and the resolution ended up being simpler than I&amp;rsquo;d ever guessed.&lt;/p&gt;
 &lt;p&gt;The issue centered on their Microsoft Dynamics AX2012 system: when they finalized a purchase order for the first time, everything ran smoothly. But if they tried to finalize a second order right after, the system would freeze for about three minutes. Worse yet, that freeze wasn&amp;rsquo;t just isolated to the purchase order function—no one at the company could use AX at all during that time. They couldn&amp;rsquo;t even open a new AX client; the entire system ground to a halt.&lt;/p&gt;</description>
